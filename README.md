@@ -4,7 +4,7 @@ Hot key-value storage: thread-safe concurrent map + auto cleaning.
 
 ```
 // Create a new Hotmap
-hm := New()
+hm := hotmap.New()
 
 // Close Hotmap
 defer hm.Close()
